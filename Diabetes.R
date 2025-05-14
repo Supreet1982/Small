@@ -200,5 +200,7 @@ db %>%
   ggplot(aes(Glucose)) +
   geom_histogram()
 
-
+db %>%
+  ggplot(aes(Age)) +
+  geom_histogram()
 
