@@ -186,6 +186,17 @@ plot(roc(db.test$Outcome, pred.xgb.prob))
 
 #Source:https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database 
 
+################################################################################
+
+#test
+
+db %>%
+  ggplot(aes(y=Glucose, x=factor(Outcome))) +
+  geom_boxplot()
+
+################################################################################
+
+
 
 
 
